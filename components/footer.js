@@ -16,7 +16,7 @@ export default function Footer() {
     <div className="relative">
       <Container>
         {/* <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5"> */}
-        <div  className='flex flex-col items-center'>
+        <div  className='flex flex-col items-center text-center'>
             <div>
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-blue-600 dark:text-gray-100">

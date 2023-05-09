@@ -37,7 +37,7 @@ const Navbar = () => {
                         alt="N"
                         width="190"
                         height="34"
-                        className="w-auto rounded-md"
+                        className="w-48 rounded-md"
                       />
                     </span>
                     {/* <span className='text-[#0097b2]'>QUESTABLE</span> */}

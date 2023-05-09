@@ -45,21 +45,21 @@ const Hero = () => {
                 <img src="img/target_learner.png"/>
               </div>
               <p className='mb-3 font-medium text-xl text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-300'>Learners</p>
-              <p className='text-lg text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300'>Learners can notably improve retention and recall of information by answering questions.</p>
+              <p className='text-md text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300'>Learners can notably improve retention and recall of information by answering questions.</p>
             </div>
             <div className="flex flex-col justify-center items-center text-center file:text-gray-500 dark:text-gray-400">
               <div className='w-[70px] bg-gray-300 p-3 mb-5 rounded-full'>
                 <img src="img/target_testtaker.png"/>
               </div>
-              <p className='mb-3 font-medium text-xl text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-300'>Test Takers</p>
-              <p className='text-lg text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300'>Test takers can be better prepared, especially in case of fewer past exam questions.</p>
+              <p className='mb-3 font-medium text-xl text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-300'>Examinees</p>
+              <p className='text-md text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300'>Examinees can be better prepared, especially in case of fewer past exam questions.</p>
             </div>
             <div className="flex flex-col justify-center items-center text-center file:text-gray-500 dark:text-gray-400">
               <div className='w-[70px] bg-gray-300 p-3 mb-5 rounded-full'>
                 <img src="img/target_educator.png"/>
               </div>
               <p className='mb-3 font-medium text-xl text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-300'>Educators</p>
-              <p className='text-lg text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300'>Educators can greatly reduce time and resources to create questions for learners.</p>
+              <p className='text-md text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300'>Educators can greatly reduce time and resources to create questions for learners.</p>
             </div>
           </div>
         </div>
