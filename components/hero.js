@@ -34,12 +34,12 @@ const Hero = () => {
         </div>
       </Container>
       <Container>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col items-center">
           <div className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
           Help your learning with custom questions
           </div>
 
-          <div className="w-full flex justify-around gap-5 mt-10">
+          <div className="w-full flex justify-around items-start gap-5 mt-10">
             <div className="flex flex-col justify-center items-center text-center file:text-gray-500 dark:text-gray-400">
               <div className='w-[70px] bg-gray-300 p-3 mb-5 rounded-full'>
                 <img src="img/target_learner.png"/>

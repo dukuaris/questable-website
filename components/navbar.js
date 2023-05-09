@@ -21,14 +21,14 @@ const Navbar = () => {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <span className="flex items-center space-x-3 text-4xl font-medium text-blue-600 dark:text-gray-100">
+                  <span className="text-3xl flex items-center space-x-3 md:text-4xl font-medium text-blue-600 dark:text-gray-100">
                     <span>
                       <Image
                         src="/img/questable_appicon.png"
                         alt="N"
-                        width="38"
-                        height="38"
-                        className="w-10 rounded-md"
+                        width="34"
+                        height="34"
+                        className="w-8 md:w-10 rounded-md"
                       />
                     </span>
                     <span className='text-[#0097b2]'>QUESTABLE</span>
@@ -57,7 +57,7 @@ const Navbar = () => {
                     )}
                   </svg> */}
                   <Link href="https://app.questable.ai/signin">
-                    <p className='bg-[#0097b2] py-2 px-4 text-white rounded-md'>Log In</p>
+                    <p className='bg-[#0097b2] py-2 px-3 text-white rounded-md'>Log In</p>
                   </Link>
                 </Disclosure.Button>
 
