@@ -1,57 +1,57 @@
 import {
-  FaceSmileIcon,
+  DocumentTextIcon,
   ChartBarSquareIcon,
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
-  SunIcon,
+  ArrowPathIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Generate from multiple types of content sources",
+  desc: "You simply have to give text, URLs, or PDF files. And, Questable will do the rest of the jobs for you.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Extract",
+      desc: "The pre-built crawler scapes text from an entered URL. Also, the PDF reader extracts content from a file.",
+      icon: <DocumentTextIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Analyze",
+      desc: "The AI-powered app analyzes text from a user to get the gist and to define the questions.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Generate",
+      desc: "The quiz creator generates questions and examples categorized by type, difficulty, and topic.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Practice and manage your question data with no effort",
+  desc: "You can test with, save, and retrieve the questions to improve your knowledge.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Practice",
+      desc: "You can practice questions and get an evaluation with the quiz games by type.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Edit",
+      desc: "You can edit, merge and reorganize questions and question groups with ease.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Manage",
+      desc: "You can save questions to DB or your PC and retrieve them from it for re-use.",
+      icon: <ArrowPathIcon />,
     },
   ],
 };
