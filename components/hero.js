@@ -1,7 +1,4 @@
-import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
-import Video from './video';
 
 const Hero = () => {
   return (
