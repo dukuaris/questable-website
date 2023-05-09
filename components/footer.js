@@ -27,7 +27,14 @@ export default function Footer() {
                   height="38"
                   className="w-10 rounded-md"
                 />
-                <span className='text-[#0097b2]'>QUESTABLE</span>
+                <Image
+                        src="/img/questable_letter_bold_standard.png"
+                        alt="N"
+                        width="190"
+                        height="34"
+                        className="w-40 rounded-md"
+                      />
+                {/* <span className='text-[#0097b2]'>QUESTABLE</span> */}
               </Link>
             </div>
 
