@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <video autoplay controls loop className='rounded-md border-2 w-96'>
+          <video autoPlay controls loop className='rounded-md border-2 w-96'>
             <source src="video/questable_intro_720.mp4" type="video/mp4"></source>
           </video>
         </div>

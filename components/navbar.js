@@ -95,7 +95,7 @@ const Navbar = () => {
         <Link href="https://app.questable.ai/signin">
                     <p>Log In</p>
                   </Link>
-          <Link href="/" className="px-6 py-2 text-white bg-blue-600 rounded-md md:ml-5">
+          <Link href="https://app.questable.ai/signup" className="px-6 py-2 text-white bg-blue-600 rounded-md md:ml-5">
               Get Started for Free
           </Link>
 
