@@ -31,7 +31,16 @@ const Navbar = () => {
                         className="w-8 md:w-10 rounded-md"
                       />
                     </span>
-                    <span className='text-[#0097b2]'>QUESTABLE</span>
+                    <span>
+                      <Image
+                        src="/img/questable_letter_bold_standard.png"
+                        alt="N"
+                        width="190"
+                        height="34"
+                        className="w-auto rounded-md"
+                      />
+                    </span>
+                    {/* <span className='text-[#0097b2]'>QUESTABLE</span> */}
                   </span>
                 </Link>
 

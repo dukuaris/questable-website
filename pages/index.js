@@ -6,7 +6,6 @@ import { benefitOne, benefitTwo } from "../components/data";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Cta from "../components/cta";
-import PopupWidget from "../components/popupWidget";
 
 const Home = () => {
   return (
