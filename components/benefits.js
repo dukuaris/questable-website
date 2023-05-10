@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import { useTranslation } from 'react-i18next'
 
 const Benefits = (props) => {
+  const { t } = useTranslation()
   const { data } = props;
   return (
     <>
@@ -31,18 +33,18 @@ const Benefits = (props) => {
           <div>
             <div className="flex flex-col w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-                {data.title}
+                {t(data.title)}
               </h3>
 
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
-                {data.desc}
+                {t(data.desc)}
               </p>
             </div>
 
             <div className="w-full mt-5">
               {data.bullets.map((item, index) => (
-                <Benefit key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
+                <Benefit key={index} title={t(item.title)} icon={item.icon}>
+                  {t(item.desc)}
                 </Benefit>
               ))}
             </div>

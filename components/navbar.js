@@ -2,8 +2,10 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
+import { useTranslation } from 'react-i18next'
 
 const Navbar = () => {
+  const { t } = useTranslation()
   const navigation = [
     "Product",
     "Features",
@@ -105,7 +107,7 @@ const Navbar = () => {
                     <p>Log In</p>
                   </Link>
           <Link href="https://app.questable.ai/signup" className="px-6 py-2 text-white bg-blue-600 rounded-md md:ml-5">
-              Get Started for Free
+              {t('Get Started for Free')}
           </Link>
 
           <ThemeChanger />

@@ -2,8 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
   const navigation = [
     "Product",
     "Features",
@@ -38,8 +40,8 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            Creat questions for learning with your content.
+            <div className="mt-4 text-gray-500 dark:text-gray-400">
+            {t("When you visit or interact with our sites, services or tools, we or our authorized service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.")}
             </div>
 
           {/* <div>
