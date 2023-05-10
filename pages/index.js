@@ -16,7 +16,7 @@ const Home = () => {
           name="description"
           content="Questable analyzes your content and auto-generates questions to improve your learning effectiveness."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/questable_appicon.png" />
       </Head>
       <Navbar />
       <Hero />

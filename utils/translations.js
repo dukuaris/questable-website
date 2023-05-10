@@ -3,7 +3,7 @@ const translations = {
 		translation: {
 			'Get Started for Free': '무료로 시작하기',
 			'Turn your content into learning questions': '컨텐츠를 질문으로 학습하세요.',
-			'Questable analyzes your content and auto-generates questions to improve your learning effectiveness.': 'Questable은 입력한 컨텐츠를 분석하고 자동으로 다양한 문제를 생성해 제공합니다.',
+			'Questable analyzes your content and auto-generates questions to improve your learning effectiveness.': 'Questable은 입력한 컨텐츠를 자동으로 분석하고 다양한 문제를 생성해 제공합니다.',
 			'Help your learning with custom questions':'맞춤형 질문을 통해 학습효과를 향상시키세요.',
 			'Learners':'학습자',
 			'Examinees': '수험생',
@@ -30,6 +30,7 @@ const translations = {
 			'Get started with Questable today': '오늘 바로 Questable을 시작하세요',
 			'Create questions for learning with your content.':'자신의 컨텐츠로 학습을 위한 질문을 만드세요.',
 			'When you visit or interact with our sites, services or tools, we or our authorized service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.':'귀하가 당사 사이트, 서비스 또는 도구를 방문하거나 상호 작용할 때 당사 또는 당사의 공인 서비스 제공업체는 귀하에게 더 좋고 빠르고 안전한 경험을 제공하는 데 도움이 되는 정보를 저장하기 위해 또는 마케팅 목적으로 쿠키를 사용할 수 있습니다.',
+			'Product Inquiry':'제품문의',
 		},
 	},
 	en: {

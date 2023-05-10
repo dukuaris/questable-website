@@ -98,7 +98,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made by{" "} Deokoo
+          Copyright © {new Date().getFullYear()}. Made by{" "} Deokoo Yoo | Contact Us: deokooyoo@gmail.com
         </div>
       </Container>
     </div>
